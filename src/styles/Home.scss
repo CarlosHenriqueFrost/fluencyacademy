@@ -1,0 +1,51 @@
+.HomeContent {
+  display: flex;
+
+  main {
+    flex: 7;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+
+    .Form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      border: 1px solid #c8dde5;
+      border-radius: 2rem;
+      gap: 2rem;
+
+      padding: 4.375rem 2.18rem;
+      width: 30rem;
+
+      img {
+        max-width: 12rem;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        gap: 1rem;
+
+        button,
+        input {
+          border-radius: 2rem;
+          padding: 1rem 4.375rem;
+
+          display: flex;
+          gap: 5rem;
+          justify-content: space-evenly;
+        }
+      }
+    }
+  }
+
+  aside {
+    flex: 8;
+  }
+}

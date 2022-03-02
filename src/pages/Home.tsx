@@ -7,17 +7,22 @@ import ItalianIcon from "../Images/ItalianIcon.png";
 import JapanIcon from "../Images/JapanIcon.png";
 import ChineseIcon from "../Images/ChineseIcon.png";
 import CoreanIcon from "../Images/CoreanIcon.png";
+import ArrowToRight from "../Images/ArrowToRight.png";
+
+import "../styles/Home.scss";
 
 export function Home() {
   return (
     <div className="HomeContent">
       <main>
-        <div>
+        <div className="Form">
           <img src={Logo} alt="Logo da Fluency Academy" />
           <form>
             <input type="text" />
             <input type="text" />
-            <button>Entrar agora</button>
+            <button>
+              Entrar agora <img src={ArrowToRight} />
+            </button>
             <button>Esqueci minha senha</button>
           </form>
         </div>
