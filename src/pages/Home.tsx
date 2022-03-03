@@ -1,4 +1,5 @@
 import Logo from "../Images/Logo.png";
+import TurnAStudent from "../Images/TurnAStudent.png";
 import USAIcon from "../Images/USAIcon.png";
 import SpanishIcon from "../Images/SpanishIcon.png";
 import FrenchIcon from "../Images/FrenchIcon.png";
@@ -42,27 +43,27 @@ export function Home() {
         </div>
       </main>
       <aside>
-        <div className="CountryFlags">
-          <img src={USAIcon} alt="" />
-          <img src={SpanishIcon} alt="" />
-          <img src={FrenchIcon} alt="" />
-          <img src={GermanyIcon} alt="" />
-          <img src={ItalianIcon} alt="" />
-          <img src={JapanIcon} alt="" />
-          <img src={ChineseIcon} alt="" />
-          <img src={CoreanIcon} alt="" />
-        </div>
-        <h1>Você chegou à Maior academia de Fluência da América Latina</h1>
-        <div className="TurnAStudent">
-          <p>
-            <strong>
-              Ainda não é nosso aluno?Venha fazer parte da Fluency Academy!
-            </strong>
-          </p>
-          <button>
-            Saiba como participar <strong>clicando aqui</strong>
-          </button>
-          <img src="" alt="" />
+        <div className="AsideContent">
+          <div className="CountryFlags">
+            <img src={USAIcon} alt="Bandeira dos Estados Unidos" />
+            <img src={SpanishIcon} alt="Bandeira da Espanha" />
+            <img src={FrenchIcon} alt="Bandeira da frança" />
+            <img src={GermanyIcon} alt="Bandeira da Alemanha" />
+            <img src={ItalianIcon} alt="Bandeira da Italia" />
+            <img src={JapanIcon} alt="Bandeira do Japão" />
+            <img src={ChineseIcon} alt="Bandeira da China" />
+            <img src={CoreanIcon} alt="Bandeira da Corea do Sul" />
+          </div>
+          <h1>Você chegou à Maior academia de Fluência da América Latina!</h1>
+          <div className="TurnAStudent">
+            <p>
+              <strong>Ainda não é nosso aluno?</strong>Venha fazer parte da
+              Fluency Academy!
+            </p>
+            <button>
+              Saiba como participar <strong>clicando aqui</strong>
+            </button>
+          </div>
         </div>
       </aside>
     </div>

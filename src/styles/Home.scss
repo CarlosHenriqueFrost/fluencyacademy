@@ -36,14 +36,14 @@
           img {
             max-width: 1rem;
             position: relative;
-            left: 245px;
+            left: 255px;
             bottom: 32px;
           }
 
           label {
             color: #23232e;
             position: relative;
-            bottom: 32px;
+            bottom: 35px;
           }
 
           input {
@@ -52,7 +52,7 @@
             width: 100%;
             padding-top: 1rem;
             padding-bottom: 1rem;
-            padding-left: 3rem;
+            padding-left: 4rem;
             background-color: #dcf3fb;
             outline: 3px solid transparent;
 
@@ -75,6 +75,13 @@
           color: #fff;
           font-size: 1rem;
           margin-bottom: 1rem;
+          font-family: "Fredoka";
+          cursor: pointer;
+          transition: filter 0.4s;
+
+          &:hover {
+            filter: brightness(1.1);
+          }
         }
       }
 
@@ -84,12 +91,50 @@
         background: #fff;
         outline: 1px solid #66c3ea;
         white-space: nowrap;
-        padding: 1rem 2rem;
+        padding: 1rem 2.6rem;
+        transition: 0.4s;
+
+        &:hover {
+          background: #66c3ea;
+          color: #fff;
+        }
       }
     }
   }
 
   aside {
     flex: 8;
+    display: flex;
+    justify-content: center;
+
+    .AsideContent {
+      padding: 5rem 10rem;
+
+      .CountryFlags {
+        background: #fff;
+        display: inline-flex;
+        padding: 1rem;
+        gap: 1rem;
+        border-radius: 1.5rem 1.5rem 0 1.5rem;
+
+        img {
+          max-width: 1.5rem;
+        }
+      }
+
+      h1 {
+        font-size: 3.5rem;
+        font-weight: 500;
+        width: 125%;
+        margin-top: 2rem;
+      }
+
+      .TurnAStudent {
+        background: url("https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3120506/settings_images/GMbKpEITSDy32vMqrs7l_teachers-img.png")
+          no-repeat 20%;
+
+        height: 9rem;
+      }
+    }
   }
 }
