@@ -8,6 +8,8 @@ import JapanIcon from "../Images/JapanIcon.png";
 import ChineseIcon from "../Images/ChineseIcon.png";
 import CoreanIcon from "../Images/CoreanIcon.png";
 import ArrowToRight from "../Images/ArrowToRight.png";
+import Check from "../Images/Check.png";
+import Eye from "../Images/Eye.png";
 
 import "../styles/Home.scss";
 
@@ -18,12 +20,24 @@ export function Home() {
         <div className="Form">
           <img src={Logo} alt="Logo da Fluency Academy" />
           <form>
-            <input type="text" />
-            <input type="text" />
+            <div className="FormInput">
+              <input type="email" id="Email" />
+              <img src={Check} alt="Icone de check verde" />
+              <label htmlFor="Email">Email</label>
+            </div>
+            <div className="FormInput">
+              <input type="password" id="Password" />
+              <img src={Eye} alt="Olho para mostrar e esconder a senha" />
+              <label htmlFor="Password">Senha</label>
+            </div>
             <button>
-              Entrar agora <img src={ArrowToRight} />
+              ENTRAR AGORA
+              <img
+                src={ArrowToRight}
+                alt="Seta apontando para a direita dentro de um botão"
+              />
             </button>
-            <button>Esqueci minha senha</button>
+            <button className="ForgotThePassword">Esqueci minha senha</button>
           </form>
         </div>
       </main>
