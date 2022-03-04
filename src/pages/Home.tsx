@@ -56,17 +56,22 @@ export function Home() {
           </div>
           <h1>Você chegou à Maior academia de Fluência da América Latina!</h1>
           <div className="TurnAStudent">
-            <p>
-              <strong>Ainda não é nosso aluno?</strong>Venha fazer parte da
-              Fluency Academy!
-            </p>
-            <button>
-              Saiba como participar <strong>clicando aqui</strong>
-            </button>
-            <img
-              src={TurnAStudent}
-              alt="Foto com os professores da fluency Academy"
-            />
+            <div className="Content">
+              <p>
+                <strong>Ainda não é nosso aluno?</strong>Venha fazer parte da
+                Fluency Academy!
+              </p>
+              <button>
+                Saiba como participar <strong>clicando aqui</strong>
+              </button>
+            </div>
+
+            <div className="Image">
+              <img
+                src={TurnAStudent}
+                alt="Imagem com os professores da Fluency Academy"
+              />
+            </div>
           </div>
         </div>
       </aside>

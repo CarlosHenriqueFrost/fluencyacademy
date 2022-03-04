@@ -130,24 +130,32 @@
       }
 
       .TurnAStudent {
-        margin-top: 2rem;
         border: 1px solid #a8a8b3;
-        padding-top: 2rem;
-        padding-left: 2rem;
+        border-radius: 1rem;
+        display: flex;
+        width: 120%;
+        height: 35.5%;
 
-        p {
-          width: 17rem;
+        margin-left: -2rem;
+        gap: 4.5rem;
+
+        .Content {
+          max-width: 51%;
+          margin-left: 2rem;
+          margin-top: 1.5rem;
+          display: grid;
+          gap: 0.5rem;
         }
 
-        img {
-          position: relative;
-          left: 17rem;
-          bottom: 3rem;
+        .Image {
+          min-width: 35%;
+          height: 100%;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+          }
         }
-      }
-
-      img {
-        max-width: 50%;
       }
     }
   }
