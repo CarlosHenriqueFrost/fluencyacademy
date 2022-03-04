@@ -130,10 +130,24 @@
       }
 
       .TurnAStudent {
-        background: url("https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3120506/settings_images/GMbKpEITSDy32vMqrs7l_teachers-img.png")
-          no-repeat 20%;
+        margin-top: 2rem;
+        border: 1px solid #a8a8b3;
+        padding-top: 2rem;
+        padding-left: 2rem;
 
-        height: 9rem;
+        p {
+          width: 17rem;
+        }
+
+        img {
+          position: relative;
+          left: 17rem;
+          bottom: 3rem;
+        }
+      }
+
+      img {
+        max-width: 50%;
       }
     }
   }

@@ -63,6 +63,10 @@ export function Home() {
             <button>
               Saiba como participar <strong>clicando aqui</strong>
             </button>
+            <img
+              src={TurnAStudent}
+              alt="Foto com os professores da fluency Academy"
+            />
           </div>
         </div>
       </aside>
