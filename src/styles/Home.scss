@@ -1,4 +1,6 @@
 .HomeContent {
+  overflow-y: hidden;
+
   display: flex;
 
   main {
@@ -17,8 +19,8 @@
       border-radius: 2rem;
       gap: 2rem;
 
-      padding: 4.375rem 2.18rem;
       width: 30rem;
+      margin-bottom: 2rem;
 
       img {
         max-width: 12rem;
@@ -116,6 +118,7 @@
         padding: 1rem;
         gap: 1rem;
         border-radius: 1.5rem 1.5rem 0 1.5rem;
+        margin-top: -2rem;
 
         img {
           max-width: 1.5rem;
@@ -123,9 +126,9 @@
       }
 
       h1 {
-        font-size: 3.5rem;
+        font-size: 3rem;
         font-weight: 500;
-        width: 125%;
+        width: 105%;
         margin-top: 2rem;
       }
 
@@ -134,26 +137,47 @@
         border-radius: 1rem;
         display: flex;
         width: 120%;
-        height: 35.5%;
-
-        margin-left: -2rem;
+        margin-top: 2.5rem;
+        margin-left: -1rem;
         gap: 4.5rem;
 
         .Content {
-          max-width: 51%;
-          margin-left: 2rem;
-          margin-top: 1.5rem;
+          max-width: 81%;
           display: grid;
-          gap: 0.5rem;
+          padding: 1.5rem 0;
+          gap: 1rem;
+          p {
+            width: 120%;
+            margin-left: 2rem;
+          }
+
+          button {
+            width: 120%;
+            color: #ffffff;
+            padding: 1rem 0;
+            background: transparent;
+            border: 1px solid #a8a8b3;
+            border-radius: 1.5rem;
+            font-weight: 600;
+            margin-left: 1rem;
+            transition: background 0.4s;
+
+            &:hover {
+              color: #856afd;
+              background: #fff;
+            }
+
+            strong {
+              font-weight: 900;
+            }
+          }
         }
 
         .Image {
           min-width: 35%;
-          height: 100%;
           img {
             width: 100%;
             height: 100%;
-            object-fit: fill;
           }
         }
       }
